@@ -1,52 +1,78 @@
-# ✍🏻 Projeto feito por Brenda Goulart para a cadeira de Desenvolvimento de Sistemas Moveis da Universidade Ulbra!
+# 🎥 Aplicativo de Filmes Populares  
+**Desenvolvido por:** Brenda Goulart Machado  
+**Disciplina:** Desenvolvimento de Sistemas Móveis  
+**Universidade:** ULBRA  
 
-- 💻 Android Studio, Flutter, Dart, API'S e FireBase.
-- 💡 A ideia é usar as linguagens e ferramentas para criar um aplicativo em que tenha uma pagina de login (usando FireBase ferramenta para o banco) e que logo em seguida carrega uma pagina utilizando alguma API mostrando os personagens, além tambem de um botão com a função de retornar a tela.
-- ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=GREEN&style=for-the-badge)
 
-# 📱 Instalando o Android Studio e configurando o emulador: 
+---
 
-- `Passo 1`: Baixe e instale o Android Studio através do link oficial: https://developer.android.com/studio.
-- `Passo 2`: Durante a instalação, certifique-se de incluir o Android Virtual Device (AVD) e o SDK Manager.
-- `Passo 3`: Abra o Android Studio e Navegue até Tools > Device Manager.
-- `Passo 4`: Clique em Create Device e escolha um dispositivo (ex.: Pixel 5).
-- `Passo 5`: Selecione uma versão do sistema operacional Android e clique em Download para obter a imagem do sistema.
-- `Passo 6`: Configure o restante conforme necessário e finalize.
-- `Passo 7`: Inicie o emulador clicando no ícone de play ao lado do dispositivo criado.
-  
-# 🔥 Configurando o FireBase:
+# 🛠️ Ferramentas Utilizadas  
+- **Flutter**: Framework para desenvolvimento multiplataforma.  
+- **Dart**: Linguagem de programação utilizada no Flutter.  
+- **Firebase**: Autenticação e gerenciamento de banco de dados.  
+- **API de Filmes**: Fonte de dados dinâmicos com informações sobre filmes populares.  
 
-- `Passo 1`: 1° Instalação da Cli do Firebase com o comando "npm install -g firebase-tools", podendo baixar manualamente pelo link "https://firebase.google.com/docs/cli?hl=pt-br#sign-in-test-cli" e escolhendo seu sistema operacional.
-- `Passo 2`: No seu prompt de comando "cmd" use o comando "firebase login".
-- `Passo 3`: Comando "dart pub global activate flutterfire_cli".
-- `Passo 4`: Dentro do diretorio do projeto de esse comando "flutterfire configure".
-- `Passo 5`: Depois digite esse "flutter pub add firebase_core".
-- `Passo 6`: Digite "flutter pub add firebase_auth".
+---
 
-# 🪟 Configurando o Flutter e Dart (WINDOWS):
+# 💡 Sobre o Projeto  
+Este aplicativo permite aos usuários explorar filmes populares por meio de uma interface intuitiva. Após autenticar-se com uma conta, o usuário acessa uma lista de filmes com informações como título, sinopse, avaliação e data de lançamento.  
 
-- `Passo 1`: Baixe o Flutter SDK em flutter.dev.
-- `Passo 2`: Extraia o arquivo .zip em uma pasta de fácil acesso (exemplo: C:\src\flutter).
-- `Passo 3`: Adicione o Flutter ao PATH (Vá em Painel de Controle > Sistema > Configurações Avançadas > Variáveis de Ambiente e edite a variável Path em "Variáveis do sistema" e adicione o caminho completo da pasta Flutter, por exemplo: C:\src\flutter\bin).
+### Principais Funcionalidades:
+- **Tela de Login**: Usando Firebase Authentication para acesso seguro.  
+- **Listagem de Filmes**: Consumo de uma API pública para exibir os filmes mais populares de 2024.  
+- **Detalhes dos Filmes**: Informações adicionais ao selecionar um filme.  
+- **Botão de Navegação**: Retorna à tela inicial de forma rápida e prática.  
 
-# 💭 Sobre o nosso projeto:
+---
 
-- `Qual API foi escolhida?`: Optamos por escolher a API de Dragon Ball (https://web.dragonball-api.com), além de conter muitos personagens para adicionarmos no aplicativo, ela tambem nos fornece mais caracteristicas detalhadas para podermos adionar ao app.
-- `Por que escolhemos o FireBase?`: Porque oferece uma plataforma completa para autenticação, banco de dados, armazenamento e funções serverless, com fácil integração, escalabilidade automática e infraestrutura do Google, permitindo desenvolver aplicativos rapidamente sem gerenciar servidores.
-- `Quais linguagens escolhidas?`: Usamos o Flutter e Dart que são ideais para desenvolvimento multiplataforma, permitindo criar apps para Android, iOS, Web e desktop com um único código base.
+# 🧰 Pré-requisitos  
+Antes de iniciar, você precisa instalar os seguintes softwares:  
+- [Flutter SDK](https://flutter.dev)  
+- [Android Studio](https://developer.android.com/studio)  
+- Conta no [Firebase](https://firebase.google.com/)  
 
+---
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Lucas-Docker" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg">
-  <img align="center" alt="Lucas-Docker" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg">
-  <img align="center" alt="Lucas-Docker" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg">
-  <img align="right" alt="Lucas-gif" height="200" width="230" src="https://i.pinimg.com/originals/86/9c/5b/869c5ba091b69122cb8a27e2bfeea909.gif">
-  
-</div>
+# 🚀 Passo a Passo para Configuração  
 
- ##
+## **1. Configurando o Android Studio**  
+1. Baixe e instale o Android Studio: [Link Oficial](https://developer.android.com/studio).  
+2. Durante a instalação, inclua o **Android Virtual Device (AVD)**.  
+3. No Android Studio, vá até **Tools > Device Manager**.  
+4. Clique em **Create Device** e escolha um modelo de dispositivo.  
+5. Baixe a imagem do sistema operacional Android e finalize a configuração.  
+6. Inicie o emulador clicando no ícone de "play".
+
+ ---
+
+# 🔥Configurando o Firebase
+
+1. Instalação do Cli do Firebase com o comando "npm install -g firebase-tools", podendo baixar manualmente pelo link " https://firebase.google.com/docs/cli?hl=pt-br#sign-in -test-cli " e escolhe seu sistema operacional.
+2. No seu prompt de comando "cmd" use o comando "firebase login".
+3. Comando "dart pub global activate flutterfire_cli".
+4. Dentro do diretório do projeto desse comando "flutterfire configure".
+5. Depois digite esse "flutter pub add firebase_core".
+6. Depois digite esse "flutter pub add firebase_core".
+
+ ---
+
+# 💻 Configurando o Flutter e o Dart no Windows
+
+1. Baixe o Flutter SDK: Flutter.dev.
+2. Extraia os arquivos para um diretório acessível (ex.: C:\src\flutter).
+3. Adicione o Flutter ao PATH do sistema.
+4. Confirme a instalação com o comando: flutter doctor
+
+---
+
+# 🎬 Sobre o meu projeto:
+A **TMDB API** (The Movie Database) é uma API gratuita que fornece informações detalhadas sobre filmes, séries e artistas. Utilizamos o endpoint `/movie/popular` para acessar uma lista dos filmes mais populares, retornando dados como título, sinopse, avaliações e imagem de capa. A URL base da API é `https://api.themoviedb.org/3`, e para utilizá-la é necessário obter uma chave de API criando uma conta no site oficial da TMDB.
+O aplicativo foi desenvolvido com Flutter e Dart, proporcionando uma solução multiplataforma eficiente e de fácil manutenção. O Firebase foi escolhido para autenticação e armazenamento de dados devido à sua integração simples com o Flutter, escalabilidade e robustez. Com o Firebase, implementamos login de usuários e gerenciamento de dados, garantindo uma experiência fluida e segura para os usuários.
+
+   
  <div>
     <a href="https://www.instagram.com/bremachado__//" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "brendagoulart675@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href = "mailto:brendagoulart675@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/brenda-machado33/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"> </a>   
 </div>
