@@ -1,10 +1,10 @@
-# ✍🏻 Projeto feito por Lucas Goulart e Lucas Godinho para a cadeira de Desenvolvimento de Sistemas Moveis da Universidade Ulbra!
+# ✍🏻 Projeto feito por Brenda Goulart para a cadeira de Desenvolvimento de Sistemas Moveis da Universidade Ulbra!
 
 - 💻 Android Studio, Flutter, Dart, API'S e FireBase.
 - 💡 A ideia é usar as linguagens e ferramentas para criar um aplicativo em que tenha uma pagina de login (usando FireBase ferramenta para o banco) e que logo em seguida carrega uma pagina utilizando alguma API mostrando os personagens, além tambem de um botão com a função de retornar a tela.
 - ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=GREEN&style=for-the-badge)
 
-# 📱 Instalando o Android Studio e configurando o emulador:
+# 📱 Instalando o Android Studio e configurando o emulador: 
 
 - `Passo 1`: Baixe e instale o Android Studio através do link oficial: https://developer.android.com/studio.
 - `Passo 2`: Durante a instalação, certifique-se de incluir o Android Virtual Device (AVD) e o SDK Manager.
@@ -46,7 +46,7 @@
 
  ##
  <div>
-    <a href="https://www.instagram.com/ghoulartzzz/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:lucasgoulart.oficial777@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/lucas-goulart-297317249/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"> </a>   
+    <a href="https://www.instagram.com/bremachado__//" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "brendagoulart675@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/brenda-machado33/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"> </a>   
 </div>
